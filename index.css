@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: red;
+}
 body{
     background-color: #040402;
 }
@@ -13,7 +17,10 @@ nav{
     padding: 20px;
 }
 #outline{
-    border: 2px solid red;
+    border: 2px solid #cc2020;
+}
+#outline:hover{
+    background-color: #cc2020;
 }
 .cont1{
     background-color: #040402;
@@ -54,6 +61,7 @@ nav{
     padding: 30px;
     text-align: center;
     transform: 3s;
+    transition: 0.2s ease-in-out;
 }
 .item1{
     position: relative;
@@ -92,22 +100,19 @@ span{
     height: 260px;
 }
 .div1:hover{
-    transition: 0.4s ease-in-out;
     background-image:linear-gradient(to right, #e51212,#df1b17,#d11f1c,#cc2020,#c72727,#b42b2e);
     cursor: pointer;
-    margin-top: -10px;
+    transform: translate(0,-10px);
 }
 .div2:hover{
-    transition: 0.4s ease-in-out;
     background-image:linear-gradient(to right, #e51212,#df1b17,#d11f1c,#cc2020,#c72727,#b42b2e);
     cursor: pointer;
-    margin-top: -10px;
+    transform: translate(0,-10px);
 }
 .div3:hover{
-    transition: 0.4s ease-in-out;
     background-image:linear-gradient(to right, #e51212,#df1b17,#d11f1c,#cc2020,#c72727,#b42b2e);
     cursor: pointer;
-    margin-top: -10px;
+    transform: translate(0,-10px);
 }
 .stats{
     background-color: rgb(24, 24, 24);
@@ -118,8 +123,12 @@ span{
 }
 .stats2{
     background-color: rgb(24, 24, 24);
-    min-height: 200px;
+    min-height: 350px;
     text-align: center;
+}
+.prof{
+    margin-top: 100px;
+       
 }
 .progress1{
     display: flex;
@@ -137,4 +146,27 @@ span{
     background-color: rgb(24, 24, 24);
     border-radius: 130px;
     margin-left:25px;
+}
+.profile{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 400px;
+    height: 430px;
+    background-color: rgb(24, 24, 24);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.face{
+    height: 170px;
+    width: 170px;
+    border-radius:85px;
+    margin-top: 60px;
+}
+.profile:hover{
+    background-color: #d11f1c;
+    transform: translate(0,-10px);
+    color: #ffff;
+}
+.profile p i:hover{
+    color: white;
 }
