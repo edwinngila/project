@@ -267,3 +267,27 @@ span{
     background-color: #cc2020;
     color: white;
 }
+.registration-form{
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.news{
+    background-color: #111111;
+    height: 340px;
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 40px;
+}
+.news h2{
+    color: white;
+}
+.name{
+    background-color: #111111;
+    height: 54px;
+}
+.subscribe{
+    height: 54px;
+    width: 170px;
+    background-color: #d30505;
+    color: white;
+}
