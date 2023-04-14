@@ -1,3 +1,4 @@
+//progress one
 var count1=0;
 var deg1=10;
 function conic1(){
@@ -17,6 +18,7 @@ function conic1(){
     start();
 }
 // ***************************************************************************************************************
+//progress two 
 var count2=0;
 var deg2=10;
 function conic2(){
@@ -36,6 +38,7 @@ function conic2(){
     start();
 }
 // ***************************************************************************************************************
+//progress three 
 var count3=0;
 var deg3=10;
 function conic3(){
@@ -55,6 +58,7 @@ function conic3(){
     start();
 }
 //****************************************************************************************************************
+//progress four 
 var count4=0;
 var deg4=10;
 function conic4(){
