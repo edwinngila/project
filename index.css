@@ -290,6 +290,34 @@ span{
     color: white;
 }
 .footer{
-    background-color: #111111;
+    background-color: #191919;
     height: 419px;
+}
+.div1s,.footer-nav, .link, .contacts{
+    padding: 20px;
+    color: #68696a;
+    list-style: none;
+    display: block;
+    font-weight: 500;
+    margin-top: 70px;
+}
+.links{
+    list-style: none;
+    
+}
+.contact-btn2{
+    width: 200px;
+    height: 60px;
+}
+.link li{
+    margin: 17px;
+}
+.contacts p{
+    margin: 17px;
+}
+.footer-nav ul li{
+    margin: 17px;
+}
+.div1s{
+    margin: 25px;
 }
